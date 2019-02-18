@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    border: 1px solid blue;
+    background-color: #292828;
+    color: #e3eef8;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.logo {
+    position: relative;
+    left: 0;
+    margin: 10px;
+    display: inline;
+}
+
+.options {
+    position: relative;
+    float: right;
+    /* display: inline; */
+    border: 1px solid blue;
+    margin-right: 20px;
+}
+
+.ulOptions {
+    display: inline;
+    list-style: none;
+}
+
+.ulOptions>li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+.ulOptions>li>a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.ulOptions>li>a:hover {
+    color: #4ea7f5;
+}

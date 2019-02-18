@@ -1,28 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/header/header";
+import Tracks from "./components/tracks/tracks";
+import Albums from "./components/albums/albums";
+import Artists from "./components/artists/artists";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+export default function() {
+  return (
+    <div className="App">
+      <Header />
+      <Tracks />
+      <Albums />
+      <Artists />
+    </div>
+  );
 }
-
-export default App;
