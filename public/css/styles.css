@@ -1,0 +1,35 @@
+.process_btn {
+    background-color: rgb(127, 214, 255);
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.inputfn {
+    border: 1px solid rgb(127, 214, 255);
+}
+
+.results {
+    text-decoration: none;
+    list-style: none;
+}
+
+.multipli {
+    background-color: rgb(66, 211, 163);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.multi {
+    background-color: rgb(66, 146, 211);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.it {
+    background-color: rgb(233, 170, 217);
+    color: aliceblue;
+    font-weight: bold;
+}
