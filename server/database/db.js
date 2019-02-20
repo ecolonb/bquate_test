@@ -17,7 +17,7 @@ pool.getConnection((err, connection) => {
         return connection.release();
     }
 });
-// Convert callbacks to promises functions
+// Converting callbacks to promises functions
 pool.query = promisify(pool.query);
 
 module.exports = pool;

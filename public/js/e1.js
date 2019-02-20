@@ -13,6 +13,11 @@ form.addEventListener('submit', function(e) {
 });
 
 function processMulti(finalNumer) {
+    /**
+     * But here's the catch: you can use only one `if`. 
+     * No multiple branches, ternary operators or `else`.
+     * 
+     */
     // var dataToPrint = `<ul class="results">`;
     // for (let index = 1; index <= finalNumer; index++) {
     //     if (index % 3 == 0 && index % 5 == 0) {

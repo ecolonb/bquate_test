@@ -1,10 +1,10 @@
 Routes:
 1.	Geting all tracks with id, title, title of the album to which it belongs, email and country of origin of the user.
 
-URL endpoint: http://localhost:1368/api/tracks/getall
+	URI: http://localhost:1368/api/tracks/getall
 
 2.	List all albums from Peru that which genre is ROCK.
-URL endpoint:  http://localhost:1368/api/albums/by_country_gender/:countrycode/:gender
+	URI:  http://localhost:1368/api/albums/by_country_gender/:countrycode/:gender
 
 
 3. Find any track that does not have artist and update it with the user name, only tracks without artist if you modify other tracks you screw up.
@@ -27,3 +27,7 @@ URL endpoint:  http://localhost:1368/api/albums/by_country_gender/:countrycode/:
     SELECT * FROM bquate_test_musica.tracks ttracks,bquate_test_musica.users tuser 
     WHERE NOT tuser.id = ttracks.userid;
 
+
+bquate_test_musi
+root_test
+bquate_test
